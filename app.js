@@ -28,15 +28,15 @@ const itemsSchema = {
 const Item = mongoose.model("Item", itemsSchema);
 
 const item1 = new Item ({
-  name: "Indica"
+  name: "List 1"
 });
 
 const item2 = new Item ({
-  name: "Sativa"
+  name: "List 2"
 });
 
 const item3 = new Item ({
-  name: "Hybrid"
+  name: "List 3"
 })
 
 const defaultItems = [item1, item2, item3];
